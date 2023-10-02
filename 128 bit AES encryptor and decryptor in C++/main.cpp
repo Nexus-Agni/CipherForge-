@@ -18,8 +18,13 @@ label:
    cout<<"Welcome to 128 bits AES encryption"<<endl;
    cout<<endl;
    cout<<"Enter you choice "<<endl;
+<<<<<<< HEAD
    cout<<"1- Encoding"<<endl;
    cout<<"2- Decoding"<<endl;
+=======
+   cout<<"1- Encryption"<<endl;
+   cout<<"2- Decryption"<<endl;
+>>>>>>> 842791c (update commit)
    cin>>choice;
 
   switch(choice)
