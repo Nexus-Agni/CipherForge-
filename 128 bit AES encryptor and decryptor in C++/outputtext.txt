@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-helloworldguyty
-=======
-
->>>>>>> 842791c (update commit)
+I love VIT bhopal
