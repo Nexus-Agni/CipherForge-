@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1698087277">
+  <File Type="ROUTE-PWR" Name="aes_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="aes.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="aes_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="aes_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="aes_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="aes.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="aes_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="aes_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="aes_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="aes_opt.dcp"/>
+  <File Type="OPT-DRC" Name="aes_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="aes.hwdef"/>
+  <File Type="PWROPT-DCP" Name="aes_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="aes_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="aes_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="aes_placed.dcp"/>
+  <File Type="PLACE-IO" Name="aes_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="aes_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="aes_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="aes_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="aes_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="aes_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="aes_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="aes.bin"/>
+  <File Type="PLACE-TIMING" Name="aes_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="aes_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="aes_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="aes_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="aes.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="aes_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="aes_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="aes_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="aes.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="aes_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="aes_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="aes_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="aes_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="aes_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="aes_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="aes_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="aes_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="aes_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="aes_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="aes_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="aes_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="aes_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="aes_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="aes_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="aes_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="aes_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="aes_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="aes_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="aes_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="aes_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="aes_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="aes_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="aes_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="aes_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="aes_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="aes_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="aes.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="aes_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="aes_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="aes.nky"/>
+  <File Type="BITSTR-BMM" Name="aes_bd.bmm"/>
+  <File Type="PDI-FILE" Name="aes.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="aes_soc.pdi"/>
+  <File Type="PL-PDI-FILE" Name="aes_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="aes.rcfi"/>
+  <File Type="CFI_FILE" Name="aes.cfi"/>
+  <File Type="RNPI_FILE" Name="aes.rnpi"/>
+  <File Type="NPI_FILE" Name="aes.npi"/>
+  <File Type="RBD_FILE" Name="aes.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="aes.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="aes.sysdef"/>
+  <File Type="BG-BGN" Name="aes.bgn"/>
+  <File Type="BG-DRC" Name="aes.drc"/>
+  <File Type="RDI-RDI" Name="aes.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="aes_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="aes_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../Maes_decipher_block.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Maes_encipher_block.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../aes_core.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../aes_inv_sbox.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../aes_key_mem.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../aes_sbox.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../aes.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="aes"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

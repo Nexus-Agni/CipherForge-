@@ -1,0 +1,122 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date         : Wed Oct 25 11:34:57 2023
+| Host         : DESKTOP-RGNOUUR running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file aes_control_sets_placed.rpt
+| Design       : aes
+| Device       : xc7a100t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    44 |
+|    Minimum number of control sets                        |    44 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    26 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    44 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |     4 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     1 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    38 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |             147 |           53 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |            2843 |         1100 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+----------------------------------------------------+---------------------+------------------+----------------+--------------+
+|  Clock Signal  |                    Enable Signal                   |   Set/Reset Signal  | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------+----------------------------------------------------+---------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG | config_we4_out                                     | core/keymem/reset_n |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG | core/enc_block/round_ctr_we                        | core/keymem/reset_n |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG | core/dec_block/dec_ctrl_new[0]                     | core/keymem/reset_n |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG | core/keymem/FSM_onehot_key_mem_ctrl_reg[3]_i_1_n_0 | core/keymem/reset_n |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | core/keymem/round_ctr_we                           | core/keymem/reset_n |                2 |              5 |         2.50 |
+|  clk_IBUF_BUFG | core/keymem/rcon_we                                | core/keymem/reset_n |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG | core/dec_block/block_w1_we                         | core/keymem/reset_n |               20 |             32 |         1.60 |
+|  clk_IBUF_BUFG | core/dec_block/block_w3_we                         | core/keymem/reset_n |               18 |             32 |         1.78 |
+|  clk_IBUF_BUFG | core/dec_block/block_w2_we                         | core/keymem/reset_n |               19 |             32 |         1.68 |
+|  clk_IBUF_BUFG | core/dec_block/block_w0_we                         | core/keymem/reset_n |               19 |             32 |         1.68 |
+|  clk_IBUF_BUFG | key_reg[1][31]_i_1_n_0                             | core/keymem/reset_n |               14 |             32 |         2.29 |
+|  clk_IBUF_BUFG | key_reg[4][31]_i_1_n_0                             | core/keymem/reset_n |                6 |             32 |         5.33 |
+|  clk_IBUF_BUFG | key_reg[5][31]_i_1_n_0                             | core/keymem/reset_n |               11 |             32 |         2.91 |
+|  clk_IBUF_BUFG | block_reg[0][31]_i_1_n_0                           | core/keymem/reset_n |               10 |             32 |         3.20 |
+|  clk_IBUF_BUFG | block_reg[3][31]_i_1_n_0                           | core/keymem/reset_n |               12 |             32 |         2.67 |
+|  clk_IBUF_BUFG | key_reg[6][31]_i_1_n_0                             | core/keymem/reset_n |               14 |             32 |         2.29 |
+|  clk_IBUF_BUFG | key_reg[7][31]_i_1_n_0                             | core/keymem/reset_n |               16 |             32 |         2.00 |
+|  clk_IBUF_BUFG | block_reg[1][31]_i_1_n_0                           | core/keymem/reset_n |               10 |             32 |         3.20 |
+|  clk_IBUF_BUFG | core/enc_block/block_w1_we                         | core/keymem/reset_n |               17 |             32 |         1.88 |
+|  clk_IBUF_BUFG | core/enc_block/block_w2_we                         | core/keymem/reset_n |               19 |             32 |         1.68 |
+|  clk_IBUF_BUFG | core/enc_block/block_w3_we                         | core/keymem/reset_n |               21 |             32 |         1.52 |
+|  clk_IBUF_BUFG | core/enc_block/block_w0_we                         | core/keymem/reset_n |               16 |             32 |         2.00 |
+|  clk_IBUF_BUFG | block_reg[2][31]_i_1_n_0                           | core/keymem/reset_n |               11 |             32 |         2.91 |
+|  clk_IBUF_BUFG | key_reg[0][31]_i_1_n_0                             | core/keymem/reset_n |                9 |             32 |         3.56 |
+|  clk_IBUF_BUFG | key_reg[3][31]_i_1_n_0                             | core/keymem/reset_n |               13 |             32 |         2.46 |
+|  clk_IBUF_BUFG | key_reg[2][31]_i_1_n_0                             | core/keymem/reset_n |               10 |             32 |         3.20 |
+|  clk_IBUF_BUFG | core/keymem/key_mem[1][127]_i_1_n_0                | core/keymem/reset_n |               33 |            128 |         3.88 |
+|  clk_IBUF_BUFG | core/keymem/key_mem[4][127]_i_1_n_0                | core/keymem/reset_n |               39 |            128 |         3.28 |
+|  clk_IBUF_BUFG | core/keymem/key_mem[9][127]_i_1_n_0                | core/keymem/reset_n |               81 |            128 |         1.58 |
+|  clk_IBUF_BUFG | core/keymem/key_mem[7][127]_i_1_n_0                | core/keymem/reset_n |               62 |            128 |         2.06 |
+|  clk_IBUF_BUFG | core/keymem/key_mem[8][127]_i_1_n_0                | core/keymem/reset_n |               42 |            128 |         3.05 |
+|  clk_IBUF_BUFG | core/keymem/key_mem[5][127]_i_1_n_0                | core/keymem/reset_n |               39 |            128 |         3.28 |
+|  clk_IBUF_BUFG | core/keymem/key_mem[11][127]_i_1_n_0               | core/keymem/reset_n |               36 |            128 |         3.56 |
+|  clk_IBUF_BUFG | core/keymem/key_mem[14][127]_i_1_n_0               | core/keymem/reset_n |               46 |            128 |         2.78 |
+|  clk_IBUF_BUFG | core/keymem/key_mem[2][127]_i_1_n_0                | core/keymem/reset_n |               32 |            128 |         4.00 |
+|  clk_IBUF_BUFG | core/keymem/key_mem[12][127]_i_1_n_0               | core/keymem/reset_n |               41 |            128 |         3.12 |
+|  clk_IBUF_BUFG | core/keymem/prev_key1_we1_out                      | core/keymem/reset_n |              107 |            128 |         1.20 |
+|  clk_IBUF_BUFG | core/keymem/key_mem[13][127]_i_1_n_0               | core/keymem/reset_n |               45 |            128 |         2.84 |
+|  clk_IBUF_BUFG | core/keymem/key_mem[3][127]_i_1_n_0                | core/keymem/reset_n |               38 |            128 |         3.37 |
+|  clk_IBUF_BUFG | core/keymem/key_mem                                | core/keymem/reset_n |               30 |            128 |         4.27 |
+|  clk_IBUF_BUFG | core/keymem/key_mem[10][127]_i_1_n_0               | core/keymem/reset_n |               38 |            128 |         3.37 |
+|  clk_IBUF_BUFG | core/keymem/prev_key0_we2_out                      | core/keymem/reset_n |               58 |            128 |         2.21 |
+|  clk_IBUF_BUFG | core/keymem/key_mem[6][127]_i_1_n_0                | core/keymem/reset_n |               38 |            128 |         3.37 |
+|  clk_IBUF_BUFG |                                                    | core/keymem/reset_n |               53 |            147 |         2.77 |
++----------------+----------------------------------------------------+---------------------+------------------+----------------+--------------+
+
+
